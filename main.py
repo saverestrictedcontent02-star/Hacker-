@@ -515,7 +515,7 @@ async def account_login(bot: Client, m: Message):
 # Bot को async में run करने के लिए
 async def run_bot():
     await bot.start()
-    await bot.idle()
+    await idle()
 
 # दोनों को साथ में run करें
 if __name__ == "__main__":
