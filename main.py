@@ -1,4 +1,4 @@
-from pyrogram import idle
+from pyrogram import Client, idle
 from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
 import requests
 import m3u8
